@@ -17,7 +17,7 @@ export default function Navbar(props) {
     <div className="collapse flex  w-full m-2 justify-between navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav flex gap-3 me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <Link className="nav-link active text-white" aria-current="page" to="/WordCount">Home</Link>
+          <Link className="nav-link active text-white" aria-current="page" to="/WordCount/">Home</Link>
         </li>
         <li className="nav-item">
           <Link className="nav-link text-white" to="/about">About</Link>
