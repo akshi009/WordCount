@@ -54,7 +54,7 @@ function App() {
         <Navbar title="YOYO" green={green} black={black} white={white} />
         <Routes>
           <Route path="/about" element={<About />} />
-          <Route path="/" element={<TextForm />} />
+          <Route path="/WordCount" element={<TextForm />} />
         </Routes>
         {/* <div className="container my-5">
           <TextForm />
